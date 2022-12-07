@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(76, 71, 89);
+}
+
+#container {
+    height: 50%;
+    width: 20%;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(30, 29, 33);
+}
+
+.box {
+    height: 60%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+#red {
+    background-color: rgb(216, 51, 51);
+}
+
+#skyblue {
+    background-color: rgb(20, 92, 200);
+}
+
+#green {
+    background-color: rgb(0, 128, 81);
+}
+
+#black {
+    background-color: black;
+}
+
+#btn-con {
+    height: 50%;
+    width: 8%;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(30, 29, 33);
+}
+
+#btn-con i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#form {
+    height: 50vh;
+    width: 40%;
+    display: flex;
+    position: absolute;
+    top: 25vh;
+    left: -1000px;
+    /* left: 30%; */
+}
+
+#f1 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 230, 234);
+}
+
+#f1 #ticket {
+    height: 85%;
+    width: 85%;
+}
+
+#f2 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 58);
+}
+
+#f2 #con {
+    height: 87%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+#f2 #con .box1 {
+    width: 80%;
+    height: 20%;
+}
+
+#sec {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.itm {
+    width: 20%;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#red1 {
+    background-color: rgb(216, 51, 51);
+}
+
+#skyblue1 {
+    background-color: rgb(20, 92, 200);
+}
+
+#green1 {
+    background-color: rgb(0, 128, 81);
+}
+
+#black1 {
+    background-color: black;
+}
+
+.head {
+    width: 100%;
+    height: 20px;
+    /* background-color: red; */
+}
